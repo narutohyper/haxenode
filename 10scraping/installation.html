@@ -40,7 +40,7 @@
     <body>
         
         
-    <div class="book" data-level="12.1" data-basepath=".." data-revision="Fri Apr 15 2016 19:42:53 GMT+0200 (CEST)">
+    <div class="book" data-level="12.1" data-basepath=".." data-revision="Mon Aug 29 2016 10:36:06 GMT+0200 (CEST)">
     
 
 <div class="book-summary">
@@ -1103,26 +1103,33 @@
                     <section class="normal" id="section-">
                     
                         <a id="edit-link" href="https://github.com/MatthijsKamstra/haxenode/blob/master/10scraping/installation.md" class="btn fa fa-edit pull-left">&nbsp;&nbsp;Edit This Page</a><h1 id="installation">Installation</h1>
-<p>Read the how to install <strong>Node.js</strong> and <strong>Haxe</strong> <a href="../haxenode/download.html">here</a>.<br>Once you have installed <strong>Haxe</strong> you will automatically installed <code>haxelib</code>.<br>The same goes for <strong>Node.js</strong>, you will have automatically installed <code>NPM</code>.</p>
+<p>Read the how to install <strong>Node.js</strong> and <strong>Haxe</strong> <a href="../haxenode/download.html">here</a>.
+Once you have installed <strong>Haxe</strong> you will automatically installed <code>haxelib</code>.
+The same goes for <strong>Node.js</strong>, you will have automatically installed <code>NPM</code>.</p>
 <h2 id="install-node-js-externs-for-haxe">Install Node.js externs for Haxe</h2>
 <p>Install the <a href="https://github.com/HaxeFoundation/hxnodejs" target="_blank">official Haxe node.js externs</a> lib via <a href="http://lib.haxe.org/p/hxnodejs/" target="_blank">haxelib</a>.
 Haxelib is automatically installed when installing Haxe and you can see it as a sort of NPM.</p>
 <pre><code>haxelib install hxnodejs
-</code></pre><p>In this tutorial I use js-kit externs, there are more ways to get externs but the js-kit has a lot so it&apos;s more a one stop shop thing!   </p>
+</code></pre><p>In this tutorial I use js-kit externs, there are more ways to get externs but the js-kit has a lot so it&apos;s more a one stop shop thing!</p>
 <pre><code>haxelib git js-kit https://github.com/clemos/haxe-js-kit.git haxelib
 </code></pre><h2 id="install-cheerio-via-npm">Install cheerio via NPM:</h2>
-<p><a href="http://cheeriojs.github.io/cheerio/" target="_blank">Cheerio</a> </p>
+<p><a href="http://cheeriojs.github.io/cheerio/" target="_blank">Cheerio</a></p>
 <blockquote>
 <p>Fast, flexible, and lean implementation of core jQuery designed specifically for the server.</p>
 </blockquote>
 <pre><code>npm install cheerio
 </code></pre><h2 id="install-request-via-npm">Install request via NPM:</h2>
-<p><a href="https://github.com/request/request" target="_blank">Request</a> </p>
+<p><a href="https://github.com/request/request" target="_blank">Request</a></p>
 <blockquote>
 <p>Simplified HTTP request client.</p>
 </blockquote>
 <pre><code>npm install request
-</code></pre>
+</code></pre><h2 id="install-all-modules-with-npm-via-package-json">Install all modules with NPM via package.json</h2>
+<p>If you have a package.json file in your directory and you run npm install, then npm will look at the dependencies that are listed in that file and download the latest versions satisfying semver rules for all of those.</p>
+<p>To do so, <code>cd</code> to the correct folder ( <code>cd path/to/correct/folder/with/package/dot/json/</code> )</p>
+<pre><code>npm install
+</code></pre><p>This will install everything in <code>node_modules</code>.</p>
+
                     
                     </section>
                 

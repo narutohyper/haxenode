@@ -40,7 +40,7 @@
     <body>
         
         
-    <div class="book" data-level="3.5" data-basepath=".." data-revision="Fri Apr 15 2016 19:42:53 GMT+0200 (CEST)">
+    <div class="book" data-level="3.5" data-basepath=".." data-revision="Mon Aug 29 2016 10:36:06 GMT+0200 (CEST)">
     
 
 <div class="book-summary">
@@ -1142,9 +1142,9 @@ class Main
     {        
         var server = Http.createServer(function (request:IncomingMessage, response:ServerResponse):Void
         {
-            res.setHeader(&quot;Content-Type&quot;,&quot;text/plain&quot;);
-            res.writeHead(200);
-            res.end(&apos;Hello World\\n&apos;);
+            response.setHeader(&quot;Content-Type&quot;,&quot;text/plain&quot;);
+            response.writeHead(200);
+            response.end(&apos;Hello World\\n&apos;);
         });
         server.listen(1337,&quot;localhost&quot;);
 
