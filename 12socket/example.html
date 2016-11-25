@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Example · GitBook</title>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Example · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.0">
+        <meta name="generator" content="GitBook 3.2.2">
         
         
         
@@ -60,6 +60,8 @@
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
+    
+    <link rel="next" href="../13sequelize/about.html" />
     
     
     <link rel="prev" href="installation.html" />
@@ -858,7 +860,52 @@
             
         </li>
     
-        <li class="chapter " data-level="1.16" >
+        <li class="chapter " data-level="1.16" data-path="../13sequelize/about.html">
+            
+                <a href="../13sequelize/about.html">
+            
+                    
+                    Example Sequelize
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.16.1" data-path="../13sequelize/installation.html">
+            
+                <a href="../13sequelize/installation.html">
+            
+                    
+                    Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.2" data-path="../13sequelize/example.html">
+            
+                <a href="../13sequelize/example.html">
+            
+                    
+                    Example
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" >
             
                 <span>
             
@@ -872,9 +919,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.16.1" data-path="../follow.html">
+        <li class="chapter " data-level="1.17.1" data-path="../resources/follow.html">
             
-                <a href="../follow.html">
+                <a href="../resources/follow.html">
             
                     
                     Who to follow
@@ -885,9 +932,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.16.2" data-path="../more.html">
+        <li class="chapter " data-level="1.17.2" data-path="../resources/more.html">
             
-                <a href="../more.html">
+                <a href="../resources/more.html">
             
                     
                     More like this
@@ -898,9 +945,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.16.3" >
+        <li class="chapter " data-level="1.17.3" >
             
-                <a target="_blank" href="http:/try.haxe.org/">
+                <a target="_blank" href="http://try.haxe.org/">
             
                     
                     Try Haxe!
@@ -911,9 +958,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.16.4" >
+        <li class="chapter " data-level="1.17.4" >
             
-                <a target="_blank" href="https:/groups.google.com/forum/#!topic/haxelang/">
+                <a target="_blank" href="https://groups.google.com/forum/#!topic/haxelang/">
             
                     
                     Community
@@ -929,7 +976,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.17" data-path="../contribute.html">
+        <li class="chapter " data-level="1.18" data-path="../contribute.html">
             
                 <a href="../contribute.html">
             
@@ -942,9 +989,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.18" >
+        <li class="chapter " data-level="1.19" >
             
-                <a target="_blank" href="https:/github.com/MatthijsKamstra/haxenode/">
+                <a target="_blank" href="https://github.com/MatthijsKamstra/haxenode/">
             
                     
                     Source
@@ -955,9 +1002,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.19" >
+        <li class="chapter " data-level="1.20" >
             
-                <a target="_blank" href="https:/github.com/MatthijsKamstra/haxenode/issues/1">
+                <a target="_blank" href="https://github.com/MatthijsKamstra/haxenode/issues/1">
             
                     
                     Suggestion Box
@@ -1013,12 +1060,17 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="example-sockets">Example Sockets</h1><p>This example is a combination of Haxe Node examples</p><ul><li><a href="05website/about.md">Example Website</a>
-</li>
-<li><a href="11automation/about.md">Example Automation</a>
-</li></ul>
-<p>and <a href="http://socket.io/" target="_blank">Socket.IO</a>!</p><h2 id="how-to-start">How to start</h2><p>Create a folder named <strong>foobar</strong> (please use a better name; any name will do) and create folders <strong>bin</strong> and <strong>src</strong>.
-See example below:</p><pre><code>+ foobar
+                                <h1 id="example-sockets">Example Sockets</h1>
+<p>This example is a combination of Haxe Node examples</p>
+<ul>
+<li><a href="05website/about.md">Example Website</a></li>
+<li><a href="11automation/about.md">Example Automation</a></li>
+</ul>
+<p>and <a href="http://socket.io/" target="_blank">Socket.IO</a>!</p>
+<h2 id="how-to-start">How to start</h2>
+<p>Create a folder named <strong>foobar</strong> (please use a better name; any name will do) and create folders <strong>bin</strong> and <strong>src</strong>.
+See example below:</p>
+<pre><code>+ foobar
     + bin
         + public
             + css
@@ -1034,8 +1086,13 @@ See example below:</p><pre><code>+ foobar
     + src
         - Main.hx
         - MainClient.hx
-    - javascript.hxml</code></pre>
-<h2 id="install">Install</h2><p>check out <a href="installation.html">the installation</a>.</p><h2 id="the-mainhx">The Main.hx</h2><p>Open your favorite editor, copy/paste the code and save it in the <code>src</code> folder.</p><p>This next code is the <code>server</code></p><pre><code>package ;
+    - javascript.hxml
+</code></pre><h2 id="install">Install</h2>
+<p>check out <a href="installation.html">the installation</a>.</p>
+<h2 id="the-mainhx">The Main.hx</h2>
+<p>Open your favorite editor, copy/paste the code and save it in the <code>src</code> folder.</p>
+<p>This next code is the <code>server</code></p>
+<pre><code>package ;
 import js.Node;
 import js.npm.Express;
 import js.npm.SocketIo;
@@ -1093,44 +1150,68 @@ class Main
     {
         var main = new Main();
     }
-}</code></pre>
-<p>The new part in comparison of the &quot;advance website&quot; <a href="05website/exampleAdvanced.md">example</a> is the <code>io</code> part.</p><pre><code>        io.on(&apos;connection&apos;, function (socket) {
+}
+</code></pre><p>The new part in comparison of the &quot;advance website&quot; <a href="05website/exampleAdvanced.md">example</a> is the <code>io</code> part.</p>
+<pre><code>        io.on(&apos;connection&apos;, function (socket) {
             socket.emit(&apos;message&apos;, { message: &apos;welcome to the chat&apos; });
             socket.on(&apos;send&apos;, function (data) {
                 io.sockets.emit(&apos;message&apos;, data);
             });
-        });</code></pre>
-<p>Which basicly just says: once you are connected to the socket, send &quot;welcome to the chat&quot;.
-And if you send data, send that data back... :D</p><h2 id="the-mainclienthx">The MainClient.hx</h2><p>Now talk about the <code>client</code> that will receive and send data to the server.
-This code is part of a bigger file you can find in <a href="../code/src/MainClient.hx">MainClient.hx</a>;</p><p>I will highlight a small part.</p><p>First wait for the dom to be ready with</p><pre><code>    new JQuery(Browser.document).ready ( function () {} );</code></pre>
-<p>Connect to the &quot;server&quot; create in <code>Main.hx</code>:</p><pre><code>_socket     = js.browser.SocketIo.connect(&apos;http://localhost:3700&apos;);</code></pre>
-<p>Make sure you can receive messages from the server:</p><pre><code>    _socket.on(&apos;message&apos;, function (data) {
+        });
+</code></pre><p>Which basicly just says: once you are connected to the socket, send &quot;welcome to the chat&quot;.
+And if you send data, send that data back... :D</p>
+<h2 id="the-mainclienthx">The MainClient.hx</h2>
+<p>Now talk about the <code>client</code> that will receive and send data to the server.
+This code is part of a bigger file you can find in <a href="../code/src/MainClient.hx">MainClient.hx</a>;</p>
+<p>I will highlight a small part.</p>
+<p>First wait for the dom to be ready with</p>
+<pre><code>    new JQuery(Browser.document).ready ( function () {} );
+</code></pre><p>Connect to the &quot;server&quot; create in <code>Main.hx</code>:</p>
+<pre><code>_socket     = js.browser.SocketIo.connect(&apos;http://localhost:3700&apos;);
+</code></pre><p>Make sure you can receive messages from the server:</p>
+<pre><code>    _socket.on(&apos;message&apos;, function (data) {
         // do clever stuff
     } ) ;
-</code></pre>
-<p>Send the data from the input (name and message) to the server</p><pre><code>        _socket.emit(&apos;send&apos;, { message: _inputField.value, username: _inputName.value });</code></pre>
-<h2 id="the-haxe-build-file-javascripthxml">The Haxe build file, javascript.hxml</h2><p>The build file is used for two targets. New in the <code>.hxml</code> file is</p><pre><code>--next</code></pre>
-<p>which is used to create the build script for a new target (in our case first javascript and then Node.js)</p><p>And <code>hxnodejs</code> has an extra check to make sure you use the correct node.js version.
-We don&apos;t need that in the client part</p><p>To remove the check, use:</p><pre><code>-D hxnodejs_no_version_warning</code></pre>
-<p>Check out the complete version open this <a href="../code/javascript.hxml">file</a>;</p><h2 id="build-js-with-haxe-and-start-node">Build js with Haxe and start Node</h2><p>To finish and see what we have, build the file and see the result</p><ol><li>Open your terminal
-</li>
-<li><code>cd</code> to the correct folder where you have saved the <code>javascript.hxml</code>
-</li>
-<li>type <code>haxe javascript.hxml</code>
-</li>
-<li>press enter
-</li></ol>
-<p>Remember that for node the start you need to uncomment</p><pre><code># -cmd cd bin
-# -cmd node example.js</code></pre>
-<p>The better solution is to use the automation</p><h2 id="automation">Automation</h2><p>Update the <code>node_modules</code></p><pre><code>npm install</code></pre>
-<p>This will create a new folder with modules-folders in it:</p><pre><code>+ node_modules
+</code></pre><p>Send the data from the input (name and message) to the server</p>
+<pre><code>        _socket.emit(&apos;send&apos;, { message: _inputField.value, username: _inputName.value });
+</code></pre><h2 id="the-haxe-build-file-javascripthxml">The Haxe build file, javascript.hxml</h2>
+<p>The build file is used for two targets. New in the <code>.hxml</code> file is</p>
+<pre><code>--next
+</code></pre><p>which is used to create the build script for a new target (in our case first javascript and then Node.js)</p>
+<p>And <code>hxnodejs</code> has an extra check to make sure you use the correct node.js version.
+We don&apos;t need that in the client part</p>
+<p>To remove the check, use:</p>
+<pre><code>-D hxnodejs_no_version_warning
+</code></pre><p>Check out the complete version open this <a href="../code/javascript.hxml">file</a>;</p>
+<h2 id="build-js-with-haxe-and-start-node">Build js with Haxe and start Node</h2>
+<p>To finish and see what we have, build the file and see the result</p>
+<ol>
+<li>Open your terminal</li>
+<li><code>cd</code> to the correct folder where you have saved the <code>javascript.hxml</code></li>
+<li>type <code>haxe javascript.hxml</code></li>
+<li>press enter</li>
+</ol>
+<p>Remember that for node the start you need to uncomment</p>
+<pre><code># -cmd cd bin
+# -cmd node example.js
+</code></pre><p>The better solution is to use the automation</p>
+<h2 id="automation">Automation</h2>
+<p>Update the <code>node_modules</code></p>
+<pre><code>npm install
+</code></pre><p>This will create a new folder with modules-folders in it:</p>
+<pre><code>+ node_modules
     + livereload
     + nodemon
     + onchange
-</code></pre>
-<p>Start NPM watch so it will rebuild <code>javascript.hxml</code> as soon as file changes</p><pre><code>npm run watch</code></pre>
-<p>And your done!</p><p>Cool huh!</p><hr><p>To stop the terminal process</p><pre><code>Ctrl + c</code></pre>
+</code></pre><p>Start NPM watch so it will rebuild <code>javascript.hxml</code> as soon as file changes</p>
+<pre><code>npm run watch
+</code></pre><p>And your done!</p>
+<p>Cool huh!</p>
 <hr>
+<p>To stop the terminal process</p>
+<pre><code>Ctrl + c
+</code></pre><hr>
+
                                 
                                 </section>
                             
@@ -1157,10 +1238,14 @@ We don&apos;t need that in the client part</p><p>To remove the check, use:</p><p
 
             
                 
-                <a href="installation.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Installation">
+                <a href="installation.html" class="navigation navigation-prev " aria-label="Previous page: Installation">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="../13sequelize/about.html" class="navigation navigation-next " aria-label="Next page: Example Sequelize">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -1169,7 +1254,7 @@ We don&apos;t need that in the client part</p><p>To remove the check, use:</p><p
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Example","level":"1.15.2","depth":2,"next":{"title":"Resources","level":"1.16","depth":1,"ref":"","articles":[{"title":"Who to follow","level":"1.16.1","depth":2,"path":"follow.md","ref":"follow.md","articles":[]},{"title":"More like this","level":"1.16.2","depth":2,"path":"more.md","ref":"more.md","articles":[]},{"title":"Try Haxe!","level":"1.16.3","depth":2,"url":"http:/try.haxe.org/","ref":"http:/try.haxe.org/","articles":[]},{"title":"Community","level":"1.16.4","depth":2,"anchor":"#!topic/haxelang/","url":"https:/groups.google.com/forum/#!topic/haxelang/","ref":"https:/groups.google.com/forum/#!topic/haxelang/","articles":[]}]},"previous":{"title":"Installation","level":"1.15.1","depth":2,"path":"12socket/installation.md","ref":"12socket/installation.md","articles":[]},"dir":"ltr"},"config":{"gitbook":">=2.0.0","theme":"default","variables":{},"plugins":["edit-link","disqus","ga"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"haxeandnodejs"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"configuration":"auto","token":"UA-67866831-2"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"","base":"https://github.com/MatthijsKamstra/haxenode/blob/master/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"intro.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"12socket/example.md","mtime":"2016-08-31T13:03:39.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-09-06T07:31:04.127Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Example","level":"1.15.2","depth":2,"next":{"title":"Example Sequelize","level":"1.16","depth":1,"path":"13sequelize/about.md","ref":"13sequelize/about.md","articles":[{"title":"Installation","level":"1.16.1","depth":2,"path":"13sequelize/installation.md","ref":"13sequelize/installation.md","articles":[]},{"title":"Example","level":"1.16.2","depth":2,"path":"13sequelize/example.md","ref":"13sequelize/example.md","articles":[]}]},"previous":{"title":"Installation","level":"1.15.1","depth":2,"path":"12socket/installation.md","ref":"12socket/installation.md","articles":[]},"dir":"ltr"},"config":{"gitbook":">=2.0.0","theme":"default","variables":{},"plugins":["edit-link","disqus","ga"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"haxeandnodejs"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"ga":{"configuration":"auto","token":"UA-67866831-2"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"","base":"https://github.com/MatthijsKamstra/haxenode/blob/master/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"intro.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"12socket/example.md","mtime":"2016-09-06T07:37:01.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-11-25T22:41:14.168Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
